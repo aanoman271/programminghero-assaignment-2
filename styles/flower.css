@@ -4,6 +4,17 @@
       margin: 0 auto;
 
 }
+.o-c{
+    color: #E95A08;
+}
+body{
+      font-family: "Open Sans", sans-serif;
+}
+.describetion{
+
+    color: #8987A1;
+}
+
 .nav-section{
    display: flex;
     justify-content: space-between;
@@ -18,3 +29,31 @@
 .nav-section ul li{
     color: #8987A1;
 }
+.banner{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    margin: 5rem auto;
+ 
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+.banner-ul :nth-child(1),
+.banner-ul :nth-child(2),
+.banner-ul :nth-child(3)
+{
+    display: none;
+}
+
+/* banner */
+.banner{
+    flex-direction: column-reverse;
+}
+
+    }
