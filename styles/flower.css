@@ -91,6 +91,28 @@ body{
     padding: 0.8rem 0;
     margin-top: 0.5rem;
 }
+
+/* lover section */
+.lover-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+   
+}
+.lover-section{
+    display: flex;
+    gap: 3.5rem;
+    margin: 4rem auto;
+}
+.lover-lists{
+       display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.lover-right{
+    margin: auto 0;
+ 
+}
 /* responsive */
 @media screen and (max-width:576px) {
 .banner-ul :nth-child(1),
