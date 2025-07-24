@@ -104,5 +104,9 @@ body{
 .banner{
     flex-direction: column-reverse;
 }
+/* plant section */
+.plant-card-container{
+    grid-template-columns: repeat(2 , 1fr);
+}
 
     }
