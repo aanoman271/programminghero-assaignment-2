@@ -193,7 +193,7 @@ box-sizing: border-box;
 }
 
 .card-1{
-    background-image: url(/assets/deal-ana.png);
+    background-image: url(../assets/deal-ana.png);
     grid-area: mini;
   
    
@@ -210,7 +210,7 @@ box-sizing: border-box;
 }
 /* join section */
 .join{
-   background-image: url(/assets/news-letter-bg.png);
+   background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
