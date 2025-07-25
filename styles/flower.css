@@ -96,7 +96,7 @@ body{
 .lover-title{
     font-size: 3rem;
     font-weight: bold;
-    margin: 0;
+    /* margin: 0; */
    
 }
 .lover-section{
@@ -126,6 +126,69 @@ body{
     width: 100%;
     height: 100%;
 }
+/* deal secton */
+.deal-describtion{
+       text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+
+}
+.deal-title{
+    text-align: center;
+    margin:0 ;
+}
+/* plant section */
+.deal-cards{
+display: grid;
+
+grid-template-areas:"mini big big "
+                     "mini2 big big" ;
+height: 400px;
+gap: 2rem;
+margin: 4rem auto;
+
+}
+.deal-card{
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+ 
+    
+}
+.deal-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    padding: 1rem;
+}
+.deal-content>h3,a{
+    color: #fff;
+
+}
+
+.card-1{
+    background-image: url(/assets/deal-ana.png);
+    grid-area: mini;
+  
+   
+}
+.card-2{
+    background-image: url(/assets/deal-bloom.png);
+    grid-area: mini2;
+   
+}
+.card-3{
+    background-image: url(/assets/deal-zabo.png);
+    grid-area: big;
+}
 /* responsive */
 @media screen and (max-width:576px) {
 .banner-ul :nth-child(1),
@@ -143,5 +206,22 @@ body{
 .plant-card-container{
     grid-template-columns: repeat(2 , 1fr);
 }
+/* plant lover */
 
+.lover-section{
+    flex-direction: column;
+ 
+}
+.badge{
+    display: none;
+}
+/* deal section */
+.deal-cards{
+   grid-template-areas: "mini"
+                         "mini2"
+                         "big";
+}
+.deal-card{
+    height: 250px;
+}
     }
