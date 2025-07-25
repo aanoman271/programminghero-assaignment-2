@@ -199,12 +199,12 @@ box-sizing: border-box;
    
 }
 .card-2{
-    background-image: url(/assets/deal-bloom.png);
+    background-image: url(../assets/deal-bloom.png);
     grid-area: mini2;
    
 }
 .card-3{
-    background-image: url(/assets/deal-zabo.png);
+    background-image: url(../assets/deal-zabo.png);
     grid-area: big;
 
 }
