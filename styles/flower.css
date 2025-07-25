@@ -41,11 +41,12 @@ body{
     display: flex;
     align-items: flex-end;
     margin: 5rem auto;
+    padding: 1rem;
  
 }
 
 .banner-title{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -88,6 +89,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 1rem;
+    padding: 0.2rem;
 }
 .btn{
     background-color: #E95A08;
@@ -110,6 +112,7 @@ body{
     display: flex;
     gap: 3.5rem;
     margin: 6.5rem auto;
+    padding: 0.3rem;
    
 }
 .lover-lists{
@@ -148,6 +151,7 @@ body{
 /* plant section */
 .deal-cards{
 display: grid;
+padding: 0.5rem;
 
 grid-template-areas:"mini big big "
                      "mini2 big big" ;
@@ -218,7 +222,7 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
    
-   margin: 3rem 0;
+    margin-top: 3rem;
     padding: 1rem;
     gap: 2rem;
 }
@@ -261,9 +265,34 @@ width: 75%;
   
 }
 
+/* footer section */
+.footer-link>li>a{
+    color: #6B7280;
+    text-decoration: none;
+    font-size: 0.8rem;
 
+}
 
-
+.footer-link>li{
+    list-style: none;
+    
+}
+.fotter{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 3rem;
+    gap: 2rem;
+}
+.fotter-icon{
+    display: flex;
+    gap: 1rem;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 /* responsive */
 @media screen and (max-width:576px) {
 .banner-ul :nth-child(1),
@@ -276,6 +305,9 @@ width: 75%;
 /* banner */
 .banner{
     flex-direction: column-reverse;
+}
+.banner-title{
+    font-size: 2rem;
 }
 /* plant section */
 .plant-card-container{
@@ -313,5 +345,10 @@ width: 75%;
 }
 .join-input{
     margin: 0 20px;
+}
+
+/* footer */
+.fotter{
+    flex-direction: column;
 }
     }
